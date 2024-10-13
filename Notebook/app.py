@@ -1,8 +1,10 @@
 # import libraries
 
-import pandas as pd
-import plotly.express as px
-import streamlit as st
+import pandas as pd   # type: ignore
+import plotly.express as px  # type: ignore
+import streamlit as st  # type: ignore
+
+file = pd.read_csv
 
 # Print data in the app
 st.write(file)
