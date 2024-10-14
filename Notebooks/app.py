@@ -3,6 +3,7 @@
 import pandas as pd   # type: ignore
 import plotly.express as px  # type: ignore
 import streamlit as st  # type: ignore
+import plotly.graph_objects as go
 
 # Upload the Car file from "EDA" to work with
 file = pd.read_csv
